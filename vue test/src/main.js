@@ -1,4 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import SaisieForm from './components/SaisieForm.vue'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+
+app.component('saisie-form', SaisieForm)
+
+app.mount('#app')
