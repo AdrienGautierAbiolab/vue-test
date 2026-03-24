@@ -1,0 +1,15 @@
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.form, .filters {
+  margin-bottom: 15px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
